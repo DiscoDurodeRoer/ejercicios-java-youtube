@@ -1,0 +1,3 @@
+22. Crea un enum con los dias de la semana, pide un dia de la semana e indica si es laboral o no (en el main).
+
+23. Modifica el anterior enum para indicar que es dia laborable directamente (usar toString).

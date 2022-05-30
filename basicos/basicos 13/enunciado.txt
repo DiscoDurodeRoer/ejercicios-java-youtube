@@ -1,0 +1,3 @@
+29. Realiza un cifrado cesar, dado todas las letras del abecedario (incluido la ñ), y un movimiento de 3 posiciones, donde la A se traduce con la D, por ejemplo.
+
+Realiza una función para codificar un texto y otra para descodificar.
