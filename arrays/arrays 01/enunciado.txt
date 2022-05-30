@@ -1,0 +1,10 @@
+1. Crea un array que contenga los numeros del 1 al 100. Muestralos por pantalla.
+
+2. Con el array creado anteriormente, calcula la suma y la media de todos sus valores. 
+
+3. Crea un array de una longitud que determine el usuario y que le permita insertar numeros entre 0 y 10
+
+4. Crea un array insertando numeros aleatorios entre 0 y 10. Muestralos por pantalla.
+
+5. Crea un array que contenga las letras del abecedario (en mayusculas) y que nos permita ir 
+cogiendo letras de sus posiciones hasta que insertemos un -1 (si no esta en el array se vuelve a pedir)

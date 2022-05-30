@@ -1,0 +1,9 @@
+﻿9. Rellenar un array de numeros (int) usando el metodo fill de Arrays.
+
+10. Crear dos arrays, rellenar uno con números y copiarlo al otro usando CopyOf de Arrays.
+
+11. Indica si dos arrays creados por ti son iguales con Equals de Arrays.
+
+12. Ordena un array de números con Sort de Arrays.
+
+

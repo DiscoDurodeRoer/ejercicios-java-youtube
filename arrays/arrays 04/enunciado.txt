@@ -1,0 +1,7 @@
+9. Ordenar un array de numeros con el metodo de la burbuja.
+
+10. Ordenar un array de numeros con el metodo QuickSort.
+
+11. Ordenar un array de cadenas con el metodo Quicksort.
+
+12. Ordenar un array de numeros con el metodo que quieras y hacer una busqueda binaria de cualquier numero.

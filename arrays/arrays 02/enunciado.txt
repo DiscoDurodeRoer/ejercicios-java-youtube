@@ -1,0 +1,6 @@
+6. Dado un array de números (podemos declarar los valores de forma inmediata), invertir los valores.
+El primero en el final, el final en el primero, y asi con todos.
+
+7. Dada una frase que nos proporciona el usuario. Pasarlo a un array de char.
+
+8. Dado un array de números, indicar si es capicua, es decir, si se lee igual tanto por delante como por detras.
