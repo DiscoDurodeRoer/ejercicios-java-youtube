@@ -1,0 +1,7 @@
+﻿14. A partir del codigo dado (ejercicio POO #11 del canal), crear dos métodos más en la clase 
+agenda que nos permita añadir contactos a un fichero con extension .age
+
+Un método será para exportar los contactos que tengamos en la actual agenda y otro que sea para 
+importar los contactos de un fichero que se le pase como parametro.
+
+Todo ello se hará con serialización, piensa que puedes cambiar.

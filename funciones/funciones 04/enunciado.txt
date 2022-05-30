@@ -1,0 +1,7 @@
+﻿7. Teniendo un fichero donde en cada linea hay un numero, leer el fichero usando Scanner, 
+muestra el contenido por pantalla.
+
+8. Pide un numero por teclado y lee el fichero usando Scanner, pero muestro solo los que sean 
+mayores que el número introducido.
+
+9. Lo mismo que el anterior pero guarda el resultado en otro fichero
