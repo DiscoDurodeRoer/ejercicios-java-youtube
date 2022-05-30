@@ -1,0 +1,10 @@
+1. Imprime "hola mundo" por pantalla
+
+2. Realizar la suma, resta, multiplicacion, division y resto de dos numeros.
+
+3. Lee un número por teclado y muestra por consola, el carácter al que pertenece en la tabla ASCII. 
+Por ejemplo: si introduzco un 97, me muestre una a.
+
+4. Indicar si un numero pasado por consola es par o no.
+
+5. Pedir 2 numeros por teclado e indicar si uno es mayor que el otro o si son iguales.

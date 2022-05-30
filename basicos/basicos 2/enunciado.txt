@@ -1,0 +1,9 @@
+6. Mostrar del 1 al 100 usando un bucle while
+
+7. Hacer el anterior pero con for
+
+8. Mostrar del 1 al 100 y que sean divisibles entre 2 y 3 (ambos)
+
+9. Realizar la suma del 1 al numero que indiquemos, este debe ser mayor que 1.
+
+10. Crear una aplicacion que nos permite insertar numeros hasta que insertemos un -1. Calcular el numero de numeros introducidos.
