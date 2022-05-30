@@ -1,1 +1,0 @@
-12. Leer con Apache POI el Excel adjuntado en la descripcion. Todo el contenido de la primera hoja.
