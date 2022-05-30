@@ -1,0 +1,3 @@
+﻿11. Contar cuantas vocales tiene una frase pasada por consola por el usuario.
+
+12. Eliminar los espacios de una frase pasada por consola por el usuario.

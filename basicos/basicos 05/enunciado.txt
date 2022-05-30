@@ -1,0 +1,21 @@
+﻿15. Mostrar la longitud de una cadena.
+
+
+
+16. Pedir dos palabras por teclado, indicar si son iguales.
+
+
+
+17. Dada una cadena, extraer la cuarta y quinta letra usando el metodo substring.
+
+
+
+18. Dada una frase, separarlo en palabras.
+
+
+
+19. Dada una frase, reemplazar las 'a' por 'e' y las 'i' por 'o'.
+
+
+
+20. Dada una frase, determinar la posición de la primera 'a' y de la siguiente.
