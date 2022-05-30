@@ -1,0 +1,3 @@
+5. Escribir en un fichero con BufferedWriter lo que quieras.
+
+6. Leer el anterior fichero con BufferedReader.

@@ -1,0 +1,4 @@
+3. Contar el numero de vocales, consonantes y numeros que hay en un fichero 
+pasado por teclado (su ruta).
+
+4. Eliminar espacios de un fichero y convertir a mayuscula todo.

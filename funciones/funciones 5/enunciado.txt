@@ -1,0 +1,6 @@
+10 . Nos piden guardar una serie de datos sobre los candidatos a un puesto de trabajo en un 
+fichero binario. Debemos guardar lo siguiente: DNI, nombre, edad y expectativa salarial en ese 
+orden. Usa DataOutputStream
+
+11. Lee el anterior fichero binario con DataInputStream. Despues pide un valor (expectativa 
+salarial) y muestra aquellos registros que sean menores que ese dato.
