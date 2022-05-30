@@ -1,0 +1,3 @@
+6. Generar una matriz de 3x3 con numeros aleatorios sin repetirse.
+
+7. Dada la matriz anterior, realizar la suma de una columna o fila aleatoria (tanto la eleccion de la fila o columna, como de elegir si elegir una columna o fila)

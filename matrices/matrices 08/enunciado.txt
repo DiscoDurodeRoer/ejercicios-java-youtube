@@ -1,0 +1,22 @@
+﻿Realizar un programa Java que genere una matriz de dos dimensiones de valores enteros a partir de los datos leídos 
+de un fichero de texto, cuyo nombre se introducirá por teclado. 
+
+Los dos primeros valores del fichero serán números enteros y definirán el número de filas y de columnas de la matriz.
+
+El programa debe indicar si la matriz leída es simétrica.
+
+Finalmente, tanto las dimensiones como los valores de la matriz traspuesta se guardarán en un fichero, 
+cuyo nombre será el de la matriz original seguido de “_T”.
+
+Ejemplo de transponer:
+
+1 2 3      1 4 7
+4 5 6  =   2 5 8
+7 8 9      3 6 9
+
+
+1 2 3 4     1 5 
+5 6 7 8  =  2 6
+            3 7
+            4 8
+

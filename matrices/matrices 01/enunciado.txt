@@ -1,0 +1,6 @@
+1. Crear una matriz de 3x3 con los numeros del 1 al 9. Mostrar por pantalla, tal como aparece en la matriz
+
+2. Crear una matriz de 5 filas y n columnas (se pide al usuario). Rellenarlo con números aleatorios entre 0 y 10.
+
+3. Crear dos matrices de nxn y sumar sus valores, los resultados se deben almacenar en otra matriz. 
+Los valores y la longitud, seran insertados por el usuario. Mostrar las matrices originales y el resultado.
