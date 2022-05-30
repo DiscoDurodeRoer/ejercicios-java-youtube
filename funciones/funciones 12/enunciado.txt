@@ -1,0 +1,3 @@
+24. Dado un array, crea una función que indique si hay algun elemento repetido.
+
+25. Dado dos arrays, crea una función que indique si en los dos arrays existe alguno repetido entre ellos.

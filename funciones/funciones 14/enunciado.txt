@@ -1,0 +1,8 @@
+20. Escribe con RandomAccessFile un fichero con los siguientes datos de 5 productos:
+	- id (int)
+	- nombre (String, 10 caracteres)
+	- precio (double)
+	- descuento (boolean)
+	- tipo (char)
+	
+Lee el segundo registro.
