@@ -1,0 +1,3 @@
+Tenemos una diana con i regiones distintas cada una con una puntuación Ri(por ejemplo 4 regiones de valores 10,25,50 y 75puntos), y disponemos de D dardos (por ejemplo 5) para alcanzar una cierta puntuación P (por ejemplo, 100 puntos).
+
+Saca la primera solución posible.

@@ -1,0 +1,4 @@
+22. Crea un tablero que represente un laberinto, este tendra una casilla de inicio y otra de fin.
+
+Hay que mostrar todos los posibles caminos del inicio al fin. Teniendo en cuenta que en las casillas 
+pueden haber paredes.

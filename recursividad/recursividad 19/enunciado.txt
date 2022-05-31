@@ -1,0 +1,1 @@
+30. Dado dos arrays, indica si son iguales usando divide y venceras.

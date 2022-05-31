@@ -1,0 +1,2 @@
+23. Dado un valor y 3 dados, queremos sacar todas las combinaciones que superen a ese valor dado. 
+Lo haremos con backtracking.

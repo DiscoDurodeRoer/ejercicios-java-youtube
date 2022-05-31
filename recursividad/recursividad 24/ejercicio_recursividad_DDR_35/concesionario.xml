@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<concesionario>
+    <coches>
+        <coche matricula="1111AAA">
+            <marca>AUDI</marca>
+            <precio>30000</precio>
+        </coche>
+        <coche matricula="2222BBB">
+            <marca>SEAT</marca>
+            <precio>10000</precio>
+        </coche>
+        <coche matricula="3333CCC">
+            <marca>BMW</marca>
+            <precio>20000</precio>
+        </coche>
+        <coche matricula="4444DDD">
+            <marca>TOYOTA</marca>
+            <precio>10000</precio>
+        </coche>
+    </coches>
+</concesionario>
