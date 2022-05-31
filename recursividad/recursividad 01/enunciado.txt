@@ -1,0 +1,3 @@
+1. Sumar los números números naturales hasta N (se lo damos nosotros) de forma recursiva.
+
+2. Factorial de un número.

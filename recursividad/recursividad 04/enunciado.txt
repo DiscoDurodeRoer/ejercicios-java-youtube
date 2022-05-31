@@ -1,0 +1,3 @@
+7. Invertir un numero de forma recursiva (no usar String)
+
+8. Invertir una palabra de forma recursiva

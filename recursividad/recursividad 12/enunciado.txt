@@ -1,0 +1,3 @@
+21. Queremos meter elementos en una mochila con un peso máximo, estos elementos tienen un peso y un beneficio.
+
+Obtener la mejor combinacion que mas beneficio nos dé y que no sobrepase el peso de la mochila.

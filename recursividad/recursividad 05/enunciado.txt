@@ -1,0 +1,4 @@
+9. Calcula la potencia de un numero de forma recursiva, tanto para exponentes 
+negativos como positivos.
+
+10. Suma los digitos de un numero de forma recursiva.

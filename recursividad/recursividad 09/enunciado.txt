@@ -1,0 +1,4 @@
+﻿
+16. Funcion recursiva determinar si dos vectores de tamaño son  iguales
+
+17. Funcion recursiva invertir array

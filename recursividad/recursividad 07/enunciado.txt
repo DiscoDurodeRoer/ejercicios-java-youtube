@@ -1,0 +1,3 @@
+12. Usando el arbol de nuestro canal, cuenta recursivamente, cuantos nodos hay.
+
+13. Usando el arbol de nuestro canal, cuenta recursivamente, cuantas hojas hay (external).

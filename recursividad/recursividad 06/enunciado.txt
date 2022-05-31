@@ -1,0 +1,3 @@
+﻿11. Haz una función que obtenga el maximo numero de un array, pasandole el array, el indice y el numero maximo actual. Otra función sin que sea necesario el tercer parámetro.
+
+Haz lo mismo con el mínimo.

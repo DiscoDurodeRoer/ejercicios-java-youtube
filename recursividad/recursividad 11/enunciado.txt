@@ -1,0 +1,7 @@
+20. Obtener todas las combinaciones de sumar un numero en concreto.
+
+4 = 1 + 1 + 1 + 1
+
+4 = 2 + 2
+
+...
