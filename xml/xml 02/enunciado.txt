@@ -1,0 +1,1 @@
+2. Dado un XML, leer todas las propiedades de la etiqueta coche
