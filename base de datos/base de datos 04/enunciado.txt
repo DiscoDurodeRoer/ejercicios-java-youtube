@@ -1,0 +1,6 @@
+4. Modificar la clase agenda para utilizar una base de datos.
+
+create table contacto(
+  nombre varchar2(40) primary key,
+  telefono number(9)
+);

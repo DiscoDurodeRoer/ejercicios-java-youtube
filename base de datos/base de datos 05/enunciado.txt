@@ -1,0 +1,1 @@
+5. Utiliza db4o para insertar 5 objetos de tipo Persona.

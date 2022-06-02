@@ -1,0 +1,1 @@
+6. Dado el fichero anterior, actualiza un objeto y borra otro.
