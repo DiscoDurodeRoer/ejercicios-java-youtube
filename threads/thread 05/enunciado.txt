@@ -1,0 +1,1 @@
+5. Crea un hilo para hacer la media de un array.

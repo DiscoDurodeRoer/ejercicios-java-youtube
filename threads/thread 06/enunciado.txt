@@ -1,0 +1,3 @@
+6. Realizar una clase Counter con un metodo que muestre de 0 a n y otro igual pero sincronizado. Realiza dos hilos que ejecuten estos metodos.
+
+La clase counter tendrá un atributo "sincronizado" de tipo boolean para indicar a cual debe llamar.

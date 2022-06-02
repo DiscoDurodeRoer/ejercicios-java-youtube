@@ -1,0 +1,1 @@
+8. Resuelve el problema de la cena de los filósofos. Se crea una mesa donde x filósofos piensan y comen, no pueden comer si el tenedor de la izquierda y derecha no están libres.
