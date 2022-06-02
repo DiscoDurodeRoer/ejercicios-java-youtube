@@ -1,0 +1,1 @@
+6. Modificar el ejercicio anterior, enviando un objeto Gasolinera.

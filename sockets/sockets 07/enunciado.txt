@@ -1,0 +1,11 @@
+7. La aplicación servidor debe atender a múltiples clientes y el cliente se conectará al servidor.
+
+Por cada cliente que se conecte, el servidor creará un hilo para el mismo.
+
+Las opciones que se mostraran al cliente son los siguientes:
+
+ - Almacenar un número en un archivo, se almacenarán en un archivo de texto 'numeros.txt donde el contenido será el nombre del cliente y el número, separados por dos puntos (Ejemplo: C3: 4)
+ - Devolver cuántos números se han almacenado hasta el momento
+ - Devolver la lista de números almacenados
+ - Devuelve el número de números almacenados por el cliente.
+ - Recibir un archivo, sólo, con sus números.
