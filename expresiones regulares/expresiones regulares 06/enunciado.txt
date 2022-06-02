@@ -1,0 +1,3 @@
+15. Validar una dirección IP.
+16. Validar un codigo ISBN de 13 digitos, empiezan en 978 0 979.
+17. Validar el nombre de usuario de twitter (empieza por @ y puede contener letras mayusculas y minusculas, numeros, guiones y guiones bajos)

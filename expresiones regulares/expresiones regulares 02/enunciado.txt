@@ -1,0 +1,5 @@
+3. Valida un numero entero.
+
+4. Valida un numero entero positivo.
+
+5. Valida un numero entero negativo
