@@ -1,0 +1,4 @@
+5. Testea los metodos de la lista dinamica:
+	- removeFirst
+	- removeLast
+	- remove

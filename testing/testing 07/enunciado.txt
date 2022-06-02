@@ -1,0 +1,3 @@
+7. Prueba los siguiente métodos de la clase TablaTipoPokemon:
+	- eficaciaTipo
+	- info

@@ -1,0 +1,4 @@
+4. Testea los metodos de la lista dinamica:
+	- addFirst
+	- addLast
+	- add

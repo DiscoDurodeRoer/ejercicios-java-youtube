@@ -1,0 +1,4 @@
+3. Testea llos metodos de la lista dinamica:
+	- isEmpty
+	- size
+	- exists

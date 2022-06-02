@@ -1,0 +1,1 @@
+- Testear ejercicio 1 POO de la web https://www.discoduroderoer.es/ejercicios-propuestos-y-resueltos-programacion-orientado-a-objetos-java/
