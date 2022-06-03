@@ -1,0 +1,14 @@
+﻿Crear dos pilas y rellenalas con los números que tu quieras. 
+El objetivo es sumar los top de cada pila y meterlo en una 3º pila, 
+lo importante es que al final la última pila tenga los numeros alineados, por ejemplo:
+
+   1     6      7
+   2     4      6
+   3     3      6
+  ---   ---    ---
+   P1    P2     P3
+
+Para realizar la suma, ambas deben tener la misma cantidad de elementos
+
+Realizalo en el main como si fuera una función
+

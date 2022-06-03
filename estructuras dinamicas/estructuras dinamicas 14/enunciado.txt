@@ -1,0 +1,2 @@
+﻿- Hacer funciones en nuestro arbol para buscar un nodo y buscar varios. 
+Hacer versión donde devuelva el nodo y otra que devuelva el elemento

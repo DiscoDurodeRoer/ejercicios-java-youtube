@@ -1,0 +1,9 @@
+﻿Vamos a realizar la siguiente version de la lista dinamica en Java, esto es lo que le añadiremos:
+
+  - exists(T element): indica si existe el elemento, con que haya uno es suficiente.
+  - indexOf(T elemento): indica la posicion donde se encuentra el elemento pasado, -1 sino existe.
+  - removeFirst(): borra el primer elemento, null si esta vacia la lista.
+  - removeLast(): borra el último elemento, null si esta vacia la lista
+  - remove(int index): borra un elemento indicado en el indice, devuelve el elemento borrado si es correcto y 
+    null si el index no es correcto.
+  - modify(T elemento, int index): modifica el contenido de una posicion con el elemento pasado.

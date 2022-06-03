@@ -1,0 +1,4 @@
+22. Añade al ejercicio anterior, 2 opciones mas:
+
+- Ordenar productos ascendentemente
+- Ordenar productos descendentemente

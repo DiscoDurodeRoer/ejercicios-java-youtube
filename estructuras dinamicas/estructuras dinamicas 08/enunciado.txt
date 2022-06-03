@@ -1,0 +1,1 @@
+8. Hacer clase ListaDinamica iterable.

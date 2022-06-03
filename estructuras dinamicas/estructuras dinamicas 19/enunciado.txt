@@ -1,0 +1,1 @@
+19. Actualiza el ejercicio de POO #12. Cambia el array de cartas por una pila de cartas.

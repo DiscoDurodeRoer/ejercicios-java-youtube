@@ -1,0 +1,4 @@
+
+7. Nos piden realizar la agenda de contactos que hicimos en POO #11 pero sin usar objetos. Para ello, usaremos un HashMap donde el nombre sera la clave y el numero de telefono sera el valor.
+
+Utilizaremos la clase Leer de la pagina web.

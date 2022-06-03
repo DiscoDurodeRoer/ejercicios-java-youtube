@@ -1,0 +1,1 @@
+Hacer función para revertir los datos de una pila.

@@ -1,0 +1,10 @@
+﻿Vamos a realizar una cola dinamica en Java, estos son los métodos:
+
+  - isEmpty(): indica si la lista esta o no vacia
+  - size(): devuelve el tamaño de la lista
+  - primero(): devuelve el elemento que esta en primer lugar
+  - dequeue(): quita el primer elemento y lo devuelve
+  - enqueue(T elemento): inserta el elemento y devuelve el elemento insertado
+  - toString(): 
+
+La clase nodo será la misma utilizada en el video anterior.

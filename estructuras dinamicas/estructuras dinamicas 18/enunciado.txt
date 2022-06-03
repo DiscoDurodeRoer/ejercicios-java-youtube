@@ -1,0 +1,4 @@
+Crea un arbol de letras, pide una letra y busca el camino que hay que recorrer.
+
+Sino existe, se indicara y si existe se mostrará el camino
+

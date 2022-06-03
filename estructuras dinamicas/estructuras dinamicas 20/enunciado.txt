@@ -1,0 +1,9 @@
+20. Queremos llevar un seguimiento de stock de unos productos.
+
+Realizaremos las siguientes acciones:
+
+	- Añadir producto
+	- Aumentar stock de un producto
+	- Eliminar stock de un producto
+	- Mostrar productos y su stock
+	- Eliminar producto
