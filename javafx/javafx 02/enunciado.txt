@@ -1,0 +1,1 @@
+2. Segun el radio seleccionado, haz la operacion con dos operandos escritos en dos jtextfields.

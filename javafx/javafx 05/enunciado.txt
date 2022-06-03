@@ -1,0 +1,1 @@
+5. Al pulsar el boton de agregar, abrir un dialogo, crear una persona y agregarla a la tabla.

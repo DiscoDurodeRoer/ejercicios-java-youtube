@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="361.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.OperacionesController">
+   <children>
+      <TextField fx:id="txtOp1" layoutX="133.0" layoutY="74.0" />
+      <TextField fx:id="txtOp2" layoutX="133.0" layoutY="119.0" />
+      <Label layoutX="47.0" layoutY="78.0" text="Operando 1" />
+      <Label layoutX="47.0" layoutY="123.0" text="Operando 2" />
+      <Button fx:id="btnOperacion" layoutX="133.0" layoutY="166.0" mnemonicParsing="false" onAction="#hacerOperacion" prefHeight="25.0" prefWidth="149.0" text="Operar" />
+      <RadioButton fx:id="rdbSuma" layoutX="128.0" layoutY="214.0" mnemonicParsing="false" selected="true" text="Suma" />
+      <RadioButton fx:id="rdbResta" layoutX="129.0" layoutY="246.0" mnemonicParsing="false" text="Resta" />
+      <RadioButton fx:id="rdbMult" layoutX="191.0" layoutY="246.0" mnemonicParsing="false" text="Multiplicacion" />
+      <RadioButton fx:id="rdbDivision" layoutX="191.0" layoutY="214.0" mnemonicParsing="false" text="Division" />
+      <TextField fx:id="txtResultado" editable="false" layoutX="127.0" layoutY="291.0" />
+      <Label layoutX="47.0" layoutY="295.0" text="Resultado" />
+   </children>
+</AnchorPane>

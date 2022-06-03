@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="433.0" prefWidth="639.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.PersonaController">
+   <children>
+      <Button fx:id="btnAgregar" layoutX="25.0" layoutY="348.0" mnemonicParsing="false" onAction="#agregarPersona" prefHeight="25.0" prefWidth="149.0" text="Agregar persona" />
+      <TextField fx:id="txtNombre" layoutX="25.0" layoutY="102.0" />
+      <Label layoutX="28.0" layoutY="67.0" text="Nombre" />
+      <Label layoutX="25.0" layoutY="158.0" text="Apellidos" />
+      <TextField fx:id="txtApellidos" layoutX="25.0" layoutY="193.0" />
+      <TextField fx:id="txtEdad" layoutX="25.0" layoutY="287.0" />
+      <Label layoutX="25.0" layoutY="255.0" text="Edad" />
+      <TableView fx:id="tblPersonas" layoutX="220.0" layoutY="67.0" onMouseClicked="#seleccionar" prefHeight="306.0" prefWidth="403.0">
+        <columns>
+          <TableColumn fx:id="colNombre" prefWidth="147.0" text="Nombre" />
+          <TableColumn fx:id="colApellidos" prefWidth="145.0" text="Apellidos" />
+            <TableColumn fx:id="colEdad" prefWidth="105.0" text="Edad" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnModificar" layoutX="241.0" layoutY="394.0" mnemonicParsing="false" onAction="#modificar" prefHeight="25.0" prefWidth="169.0" text="Modificar" />
+      <Button fx:id="btnEliminar" layoutX="444.0" layoutY="394.0" mnemonicParsing="false" onAction="#eliminar" prefHeight="25.0" prefWidth="156.0" text="Eliminar" />
+   </children>
+</AnchorPane>

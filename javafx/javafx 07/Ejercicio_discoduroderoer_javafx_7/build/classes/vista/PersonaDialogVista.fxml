@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" focusTraversable="true" maxHeight="383.0" maxWidth="185.0" minHeight="345.0" minWidth="185.0" prefHeight="383.0" prefWidth="185.0" snapToPixel="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.PersonaDialogControlador">
+   <children>
+      <Label layoutX="17.0" layoutY="213.0" text="Edad" />
+      <TextField fx:id="txtEdad" layoutX="19.0" layoutY="242.0" />
+      <TextField fx:id="txtApellidos" layoutX="19.0" layoutY="160.0" />
+      <Label layoutX="17.0" layoutY="126.0" text="Apellidos" />
+      <Label layoutX="19.0" layoutY="40.0" text="Nombre" />
+      <TextField fx:id="txtNombre" layoutX="19.0" layoutY="73.0" />
+      <Button fx:id="btnGuardar" layoutX="22.0" layoutY="299.0" mnemonicParsing="false" onAction="#guardar" prefHeight="25.0" prefWidth="149.0" text="Guardar" />
+      <Button fx:id="btnSalir" layoutX="22.0" layoutY="337.0" mnemonicParsing="false" onAction="#salir" prefHeight="25.0" prefWidth="149.0" text="Salir" />
+   </children>
+</AnchorPane>
