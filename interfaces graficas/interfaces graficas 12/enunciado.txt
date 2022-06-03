@@ -1,0 +1,1 @@
+12. Pon las filas donde en la columna 0, tengan un 3 a rojo y el resto a verde.

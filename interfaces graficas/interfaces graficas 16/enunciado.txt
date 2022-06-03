@@ -1,0 +1,4 @@
+16. Siguiendo el anterior ejercicio del bloc de notas. Añadimos estas opciones:
+
+- Guardar: guardamos el contenido en el fichero actual
+- Guardar como... : guardamos el contenido en el fichero que seleccionemos.

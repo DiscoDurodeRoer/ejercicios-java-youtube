@@ -1,0 +1,4 @@
+15. Hacer la ventana para un bloc de notas. Crea un menu con las siguientes opciones:
+
+ - Nuevo : Limpia el textarea y empieza de nuevo
+ - Abrir... : Abre un JFileChooser, elige un fichero para abrir y se muestra el contenido en el textarea.

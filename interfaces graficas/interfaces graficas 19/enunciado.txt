@@ -1,0 +1,1 @@
+19. Remata la funcionalidad del 3 en raya GUI.

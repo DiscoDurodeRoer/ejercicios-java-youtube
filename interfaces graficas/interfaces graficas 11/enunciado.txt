@@ -1,0 +1,1 @@
+11. Poner un fondo de pantalla a una ventana Swing.

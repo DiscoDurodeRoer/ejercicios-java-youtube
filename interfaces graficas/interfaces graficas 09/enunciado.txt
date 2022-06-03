@@ -1,0 +1,1 @@
+9. Crea una función que limpie todo un formulario.
