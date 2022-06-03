@@ -1,0 +1,4 @@
+19. Dado un json, crea un objeto Persona con los siguientes atributos:
+	- nombre (String)
+	- edad (int)
+	- aficiones (array de String)

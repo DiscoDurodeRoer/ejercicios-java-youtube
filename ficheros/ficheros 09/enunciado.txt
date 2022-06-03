@@ -1,0 +1,6 @@
+15. Vamos a crear un gestor de fichero serializado. Contendra lo siguiente:
+	
+	- Atributos: fichero y arraylist de objetos.
+
+	- obtenerDatos(): trae toda la informacion de un fichero.
+	- guardarDato(objeto): guarda un objeto en el fichero y en la lista

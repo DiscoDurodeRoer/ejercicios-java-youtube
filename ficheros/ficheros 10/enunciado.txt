@@ -1,0 +1,5 @@
+16. Agregaremos los siguientes metodos a nuestra clase de GestorFicheroSerializado:
+	
+	- mostrarDatos(): muestra el contenido de la lista.
+	- existeDato(T elemento): indica si existe ese elemento.
+	- borrarDato(T elemento): borra un objeto de la lista y del fichero.
