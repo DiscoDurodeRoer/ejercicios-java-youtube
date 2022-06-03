@@ -1,0 +1,1 @@
+19. Adapta los métodos del proyecto original a la nueva clase.

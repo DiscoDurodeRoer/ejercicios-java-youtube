@@ -1,0 +1,8 @@
+24. Crear una clase Log para gestionar un log.
+
+Debe de contener los siguientes métodos:
+ - open(boolean append): abre un bufferedWriter para empezar a escribir. El parametro indica si se debe añadir o empezar de nuevo.
+ - addLine(String linea): Añade una linea al fichero, le incluye la fecha y hora en la que se agrego y un salto de linea.
+ - getLines(): Devuelve todas las lineas del fichero. Devuelve un array de lineas
+ - resetLog(): resetea el log
+ - close(): cierra el bufferedwriter

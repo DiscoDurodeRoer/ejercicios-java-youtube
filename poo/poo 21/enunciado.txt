@@ -1,0 +1,10 @@
+21. Implementar la interfaz Comparable en la clase Fecha.
+
+Añadir las siguientes funciones:
+
+	- getMilisegundos(): Devuelve los milisegundos de la fecha actual.
+	- fechaMayor(Fecha fecha): Indica si la fecha actual es mayor que la fecha pasada.
+	- fechaIgual(Fecha fecha): Indica si la fecha actual es igual que la fecha pasada.
+	- fechaMenor(Fecha fecha): Indica si la fecha actual es menor que la fecha pasada.
+
+

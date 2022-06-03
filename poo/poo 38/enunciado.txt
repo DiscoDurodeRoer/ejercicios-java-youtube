@@ -1,0 +1,5 @@
+38. Realiza una clase que represente un dado, esta clase tiene un atributo llamado numeroCaras.
+
+Las acciones que puede hacer un dado es:
+ - tirarDado(): int: Tira un dado y devuelve un valor
+ - tirarDadoNveces(int n): int[]: Tira un dado x veces guardamos los valores.

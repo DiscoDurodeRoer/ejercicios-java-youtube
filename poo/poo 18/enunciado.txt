@@ -1,0 +1,1 @@
+18. Realiza la tabla de tipos en POO.

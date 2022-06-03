@@ -1,0 +1,11 @@
+25. Vamos a hacer el world war bot en Java. 
+
+Para ello, con un fichero de texto, donde estaran los participantes.
+
+La clase tendrá los siguientes metodos:
+
+	- procesarParticipantes(String ruta): le pasamos la ruta del fichero y procesamos los participantes.
+	- mostrarParticipantes(): muestra los participantes
+	- combate(): muestra dos participantes y uno de los 2 caera (50% de probabilidad).
+	- hayGanador(): indica si hay ganador.
+	- mostrarGanador(): muestra el ganador si lo hay

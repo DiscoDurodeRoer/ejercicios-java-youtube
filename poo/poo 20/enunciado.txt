@@ -1,0 +1,10 @@
+20. Mejorar los constructores de nuestra clase Fecha:
+	- Sin parametros: Cogera la fecha actual
+	- Pasandole un Date
+	- Pasandole un Calendar
+	- Pasandole un LocalDate
+
+Añadir las siguientes funciones:
+	- toDate: pasar la fecha actual a Date
+	- toCalendar: pasar la fecha actual a Calendar
+	- toLocalDate: pasar la fecha actual a LocalDate
