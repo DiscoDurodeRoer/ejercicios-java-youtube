@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function init() {
+            this.getCustomers();
+
+            document.getElementById("customers").addEventListener('change', function () {
+                getCarsByCustomer(document.getElementById("customers").value);
+            });
+
+        }
+
+        function getCustomers() {
+
+            // creo el objeto que realizara la llamada
+            let llamada = new XMLHttpRequest();
+
+            // url del php a llamar
+            let url = "car_dealer.php";
+
+            // Indico los parametros que voy a mandar
+            let params = "tag=getCustomers";
+
+            // Funcion que se ejecutara al recibir la respuesta
+            llamada.onreadystatechange = function () {
+                // si todo esta bien
+                if (this.readyState === 4 && this.status === 200) {
+                    let datos = JSON.parse(this.responseText).customers;
+                    console.log("Respuesta: ", datos);
+
+                    let select = document.getElementById("customers");
+
+                    datos.forEach(dato => {
+                        let option = document.createElement("option");
+                        option.setAttribute("value", dato.id_customer);
+                        let texto = document.createTextNode(dato.first_name + " " + dato.last_name);
+                        option.appendChild(texto);
+                        select.appendChild(option);
+                    });
+
+                }
+            }
+
+            // Indico que es una peticion POST
+            llamada.open("POST", url, true);
+            // Esta linea es necesaria en una peticion POST
+            llamada.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            llamada.send(params); // Le paso los parametros
+
+        }
+
+
+        function getCarsByCustomer($idCustomer) {
+
+
+
+            // creo el objeto que realizara la llamada
+            let llamada = new XMLHttpRequest();
+
+            // url del php a llamar
+            let url = "car_dealer.php";
+
+            // Indico los parametros que voy a mandar
+            let params = "tag=getCarsByCustomer&idCustomer=" + $idCustomer;
+
+            // Funcion que se ejecutara al recibir la respuesta
+            llamada.onreadystatechange = function () {
+                // si todo esta bien
+                if (this.readyState === 4 && this.status === 200) {
+                    let response = JSON.parse(this.responseText);
+                    console.log("Respuesta: ", response);
+
+                    let div = document.getElementById("data");
+                    div.innerHTML = "";
+
+                    if (response.error === 1) {
+                        div.innerHTML = "<p>No hay coches para este cliente</p>";
+                    } else {
+                        datos = response.cars;
+                        let table = document.createElement("table");
+                        table.setAttribute("border", "1");
+                        let tr1 = document.createElement("tr");
+
+                        let th1 = document.createElement("th");
+                        let th1texto = document.createTextNode("Modelo");
+                        th1.appendChild(th1texto);
+
+                        let th2 = document.createElement("th");
+                        let th2texto = document.createTextNode("Potencia");
+                        th2.appendChild(th2texto);
+
+                        let th3 = document.createElement("th");
+                        let th3texto = document.createTextNode("Fecha");
+                        th3.appendChild(th3texto);
+
+                        let th4 = document.createElement("th");
+                        let th4texto = document.createTextNode("Ciudad");
+                        th4.appendChild(th4texto);
+
+                        tr1.appendChild(th1);
+                        tr1.appendChild(th2);
+                        tr1.appendChild(th3);
+                        tr1.appendChild(th4);
+
+                        table.appendChild(tr1);
+
+                        datos.forEach(dato => {
+
+                            let tr = document.createElement("tr");
+
+                            let td1 = document.createElement("td");
+                            let td1Texto = document.createTextNode(dato.model);
+                            td1.appendChild(td1Texto);
+
+                            let td2 = document.createElement("td");
+                            let td2Texto = document.createTextNode(dato.horse_power);
+                            td2.appendChild(td2Texto);
+
+                            let td3 = document.createElement("td");
+                            let td3Texto = document.createTextNode(dato.sale_date);
+                            td3.appendChild(td3Texto);
+
+                            let td4 = document.createElement("td");
+                            let td4Texto = document.createTextNode(dato.city);
+                            td4.appendChild(td4Texto);
+
+                            tr.appendChild(td1);
+                            tr.appendChild(td2);
+                            tr.appendChild(td3);
+                            tr.appendChild(td4);
+
+                            table.appendChild(tr);
+                        });
+                        div.appendChild(table);
+                    }
+
+
+
+                }
+            }
+
+            // Indico que es una peticion POST
+            llamada.open("POST", url, true);
+            // Esta linea es necesaria en una peticion POST
+            llamada.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            llamada.send(params); // Le paso los parametros
+
+        }
+
+        window.onload = init;
+
+    </script>
+</head>
+
+<body>
+
+
+    <select name="customers" id="customers">
+    </select>
+
+    <div id="data">
+
+    </div>
+
+
+</body>
+
+</html>
