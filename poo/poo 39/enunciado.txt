@@ -1,0 +1,12 @@
+39. Crea una clase llamada CartonBingo con los siguientes atributos:
+
+- carton (matriz de numero de 3 filas y 9 columnas)
+- marcados (matriz de booleanos de 3 filas y 9 columnas)
+
+Para crear un carton de bingo, pasa los metodos realizados en este video a POO: https://youtu.be/W-rWPBb8VqM 
+
+Añadiremos las siguientes funciones:
+
+    • marcar(int numero): Dado un numero, indicaremos que esta marcado. Validaremos que el numero sea correcto (entre 1 y 90)
+    • comprobarLinea(): Comprueba si alguna de las linea estan todos los elementos marcados.
+    • comprobarBingo(): Comprueba si todos los numeros estan marcados.
