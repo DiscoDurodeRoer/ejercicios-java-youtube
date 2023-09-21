@@ -1,6 +1,3 @@
-15. Vamos a crear un gestor de fichero serializado. Contendra lo siguiente:
-	
-	- Atributos: fichero y arraylist de objetos.
+20. Calcula los años entre una fecha pasada por parametro (dia, mes año). No uses Calendar.
 
-	- obtenerDatos(): trae toda la informacion de un fichero.
-	- guardarDato(objeto): guarda un objeto en el fichero y en la lista
+21. Calcula los años entre una fecha pasada por parametro (dia, mes año). Usa Calendar.

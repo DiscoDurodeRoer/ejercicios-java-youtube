@@ -1,3 +1,9 @@
-1. Escribir en un fichero "Hola mundo".
+1. Haz un método que imprima "hola mundo"
 
-2. Leer el anterior fichero, mostrando su contenido por pantalla.
+2. Crea una función que devuelva la suma de 2 números, pasados por parámetros.
+
+3. Crea una función que indique si un número es mayor o menor que cero.
+
+4. Crea una función que nos devuelva el número ASCII de un carácter pasao por parámetro.
+
+5. Crea una función que devuelva un número aleatorio entre dos números enteros que nosotros le pasemos.

@@ -1,4 +1,5 @@
-19. Dado un json, crea un objeto Persona con los siguientes atributos:
-	- nombre (String)
-	- edad (int)
-	- aficiones (array de String)
+26. Crea una función que dado un array y un numero, indique el numero de veces que se repite.
+
+27. Crea una función que dado dos arrays, indique cuantos elementos se repiten en ambos.
+
+28. Crea una función que dado dos arrays, indique cuantos elementos se repiten en ambos pero en la misma posición.

@@ -1,1 +1,31 @@
-12. Leer con Apache POI el Excel adjuntado en la descripcion. Todo el contenido de la primera hoja.
+14. Vamos a validar un DNI.
+El formato es:
+• 7 u 8 dígitos numéricos
+• Una letra entre las siguientes 
+0 T
+1 R
+2 W
+3 A
+4 G
+5 M
+6 Y
+7 F
+8 P
+9 D
+10 X
+11 B
+12 N
+13 J
+14 Z
+15 S
+16 Q
+17 V
+18 H
+19 L
+20 C
+21 K
+22 E
+
+La letra se genera según el número del DNI. Para calcular la letra, cogeremos el resto de dividir nuestro DNI entre 23, el resultado debe estar entre 0 y 22, donde será la posición de la letra (piensa en un array de char).
+No utilices expresiones regulares para este ejercicio.
+Todos los errores deben ser capturados por excepciones mediante tu propia clase (heredada de exception)

@@ -1,7 +1,5 @@
-﻿7. Teniendo un fichero donde en cada linea hay un numero, leer el fichero usando Scanner, 
-muestra el contenido por pantalla.
+﻿10. Crear una función que nos muestre por pantalla  un array  que hayamos creado.
 
-8. Pide un numero por teclado y lee el fichero usando Scanner, pero muestro solo los que sean 
-mayores que el número introducido.
+11. Crear una función que nos devuelva la suma de un array y otra que nos devuelva la media.
 
-9. Lo mismo que el anterior pero guarda el resultado en otro fichero
+12. Crea una función que nos devuelva un array de un numero a otro, ambos incluidos. Por ejemplo, si introduzco de 5 a 7, el array tendrá los números 5,6,7 pero si inserto de 7 a 5, el array tendrá los números de 7 a 5.

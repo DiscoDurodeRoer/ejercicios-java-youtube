@@ -1,0 +1,6 @@
+15. Crear una función que nos devuelva el mayor y menor numero de un array.
+
+16. Crear una función que nos devuelva en un array todos los posibles divisores de un número. 
+No incluimos ni el 1 ni el propio número.
+
+17. Crear una función que nos devuelva el menor y mayor divisor de un número.

@@ -1,6 +1,14 @@
-10 . Nos piden guardar una serie de datos sobre los candidatos a un puesto de trabajo en un 
-fichero binario. Debemos guardar lo siguiente: DNI, nombre, edad y expectativa salarial en ese 
-orden. Usa DataOutputStream
+13. Crea una función que valide si un CCC (código cuenta cliente) es correcto.
+Un CCC es un numero de 20 dígitos que está formado por las siguientes partes:
+  - Entidad: los 4 primeros números
+  - Oficina: los 4 siguientes números
+  - Dígitos de control: los 2 siguientes números
+  - Número de cuenta: los últimos 10 dígitos
+Para que sea válido, debe cumplir lo siguiente:
+  - Tener 20 dígitos
+  - Que todos sean números
+  - Comprobar que los dígitos de control sean correctos.
+Lanzar una excepción cuando no se cumpla cualquiera de estas opciones.
+Te dejo aquí un enlace donde se comenta como se valida.
 
-11. Lee el anterior fichero binario con DataInputStream. Despues pide un valor (expectativa 
-salarial) y muestra aquellos registros que sean menores que ese dato.
+Generador de CCC: https://www.generador-de-dni.com/generador-de-cuentas-bancarias
